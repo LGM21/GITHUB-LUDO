@@ -1,0 +1,103 @@
+header {
+    background-color: darkblue;
+    color: aliceblue;
+    text-align: center;
+    height: 100px;
+}
+
+header .btn {
+    color: aliceblue;
+}
+
+#container {
+    margin-top: 5% auto;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 30px;
+    box-shadow: 0px 0px 12px 2px black;
+}
+
+.box {
+    display: inline-block;
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+span {
+    font-size: 75px;
+    font-family: sans-serif;
+    text-align: center;
+    height: 75px;
+    width: 75px;
+    padding: 0;
+    margin: 5px;
+    display: block;
+    line-height: 75px; /* Centraliza o texto verticalmente */
+}
+
+.top {
+    border-top: none;
+}
+
+.bottom {
+    border-bottom: none;
+}
+
+.right {
+    border-right: none;
+}
+
+.left {
+    border-left: none;
+}
+
+.alert {
+    height: 180px; /* Ajustado para o tamanho final */
+    width: 250px; /* Ajustado para o tamanho final */
+    background-color: aliceblue;
+    position: fixed; /* Fixa no meio da tela */
+    top: 50%; /* Alinha verticalmente ao centro */
+    left: 50%; /* Alinha horizontalmente ao centro */
+    transform: translate(-50%, -50%); /* Ajusta para o centro exato */
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 2px black;
+    padding: 30px;
+    text-align: center;
+    z-index: 100;
+    display: none; /* Esconde inicialmente */
+    animation: larger 0.5s forwards; /* Define animação */
+}
+
+button {
+    background-color: gray;
+    border-radius: 2px;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+button:focus {
+    background-color: silver;
+}
+
+.activeBox {
+    background-color: grey;
+}
+
+@keyframes larger {
+    from {
+        height: 75px;
+        width: 125px;
+    }
+    to {
+        height: 180px;
+        width: 250px;
+    }
+}

@@ -1,0 +1,27 @@
+header{
+    text-align: center;
+    background-color:darkblue;
+    height: 80px;
+    
+}
+header h1{
+    top: 10px;
+    color:aqua;
+    position: relative;
+}
+
+.container{
+    margin-top: 150px;
+}
+.card .btn{
+background-color: darkblue;
+color: aliceblue;
+
+}
+.card-body{
+   left: 50px;
+}
+.card{
+    align-items: center;
+    left:50px;
+}
